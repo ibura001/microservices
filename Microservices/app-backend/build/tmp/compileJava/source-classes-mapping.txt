@@ -1,4 +1,0 @@
-com/kpi/microservices/appbackend/AppBackendApplication.java
- com.kpi.microservices.appbackend.AppBackendApplication
-com/kpi/microservices/appbackend/HelloBackend.java
- com.kpi.microservices.appbackend.HelloBackend
