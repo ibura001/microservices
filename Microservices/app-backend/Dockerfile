@@ -7,3 +7,4 @@ RUN gradle build
 EXPOSE 8080
 WORKDIR /app-backend
 
+CMD java -jar build/libs/app-backend-0.0.1-SNAPSHOT.jar
