@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    visualize: "true"
+  name: app-frontend
+spec:
+  selector:
+    app: app-frontend
+  ports:
+    - name: http
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
+  type: ClusterIP
